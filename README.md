@@ -1,5 +1,5 @@
 # DataHandler
-DataHandler has the following methods: loadPriceData, getPrices, computeAverage, computeMax, computeMovingAverage,insertPrice, correctPrice 
+DataHandler has the following methods: loadPriceData, getPrices, computeAverage, computeMax, computeMovingAverage, insertPrice, correctPrice 
 
 # loadPriceData
 loadPriceData: takes the file name, sort method specification (QuickSort or BubbleSort), and sort preference – ascending or descending, and price or date – as parameters. The file content should be loaded into memory and sorted according to the above sort preferences. After this method is called, the data should be held in the instance variables of an object of class DataHandler.
