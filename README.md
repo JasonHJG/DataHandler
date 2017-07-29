@@ -16,7 +16,7 @@ computeMax: takes the parameters fromDate and toDate. It should return the maxim
 # computeMovingAverage
 computeMovingAverage: takes the parameters windowSize, fromDate, and toDate. It should return a moving average of the last n elements of price, where n = windowSize. The prices used in this calculation should include prices for the start date, the end date, and everything in between. For example, if the dates specified are from the 1st of July to the 20th of July and the window size is 10, this method should return an array or list in which the 1st value is the average of the price from the 1st of July through the 10th of July, the 2nd value is the average of the price from the 2nd of July through the 11th of July, and so on, until the last value used in the calculation is the price from the 20th of July.
 
-#insertPrice
+# insertPrice
 insertPrice: takes a price record as a parameter. As in the price file, a single price record has a date, open price, high price, low price, close price, trading volume, and adjusted closing price. The insertPrice method is used to insert a price into the price data contained in an object of class DataHandler. If the date already exists, overwrite the record that is already there. Note that you must keep the data sorted when inserting or overwriting a new price record.
 
 # correctPrices
