@@ -1,9 +1,14 @@
 Qn1:
-First, compile helloWorld, use javac helloWorld.java, you will see helloWorld.class
-Second, to execute helloWorld, use java helloWorld, you will see:Jingang He, Financial Mathematics, Courant Institute
+There is a single class helloWorld in dirctory helloworld:
+--helloworld
+  -helloWorld.java
+
+Go to directory helloworld and use:
+javac helloworld/helloWorld.java  //you will see helloWorld.class after this
+java helloworld.helloWorld. //you will see:Jingang He, Financial Mathematics, Courant Institute
 
 Qn2:
-There are two .java files: DataHandler.java and quickSort.java
+There are two .java files: DataHandler.java and quickSort.java contained in dirctory datahandler
 
 There is a global integer constant in the DataHandler class called verbose, whose default value is 0. To see which dates are used in the computation process, set it to 1 in the main function and the dates will be printed out.(Yes, you need to change DataHandler.java in order to do it)
 
@@ -21,7 +26,7 @@ then use the following command:
 mkdir classes
 javac -d classes datahandler/quickSort.java
 javac -d classpath classes datahandler/DataHandler.java
-java datahandler.DataHandler "abs address of prices.csv" "abs address of corrections.csv"
+java datahandler.DataHandler "absolute path of prices.csv" "absolute path of corrections.csv"
 
     
 To run it with IDE (i.e. Eclipse), choose run configuration and then click on arguments, and put the absolute path of prices.csv as the first arg and the absolute path of corrections.csv as the second arg. Then run and you will see the answer.
