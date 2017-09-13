@@ -1,4 +1,18 @@
-Answers for the questions:
+Qn1:
+First, compile helloWorld, use javac helloWorld.java, you will see helloWorld.class
+Second, to execute helloWorld, use java helloWorld, you will see:Jingang He, Financial Mathematics, Courant Institute
+
+Qn2:
+There is a global integer constant in the DataHandler class called verbose, whose default is 0. To see which dates are used 
+in the computation, set it to 1 in the main function and the dates will be printed out.
+
+To run this program in your computer. You need to pass two arguments into the main function:
+the first arg is the absolute path of your prices.csv
+the second arg is the absolute path of your corrections.csv
+
+For example, at your IDE, choose run config, and put the absolute path of prices.csv as the first arg and 
+the absolute path of corrections.csv as the second arg
+
 all the prices are arranged according to:
 Open High Low Close Volume AdjClose
 
