@@ -3,15 +3,28 @@ First, compile helloWorld, use javac helloWorld.java, you will see helloWorld.cl
 Second, to execute helloWorld, use java helloWorld, you will see:Jingang He, Financial Mathematics, Courant Institute
 
 Qn2:
-There is a global integer constant in the DataHandler class called verbose, whose default is 0. To see which dates are used 
-in the computation, set it to 1 in the main function and the dates will be printed out.
+There are two .java files: DataHandler.java and quickSort.java
+
+There is a global integer constant in the DataHandler class called verbose, whose default value is 0. To see which dates are used in the computation process, set it to 1 in the main function and the dates will be printed out.(Yes, you need to change DataHandler.java in order to do it)
 
 To run this program in your computer. You need to pass two arguments into the main function:
 the first arg is the absolute path of your prices.csv
 the second arg is the absolute path of your corrections.csv
 
-For example, at your IDE, choose run config, and put the absolute path of prices.csv as the first arg and 
-the absolute path of corrections.csv as the second arg
+To run it in the shell. Lets assume you have a directory structure as such and assume you are in UpperDir:
+--UpperDir
+  --datahandler
+    -DataHandler.java
+    -quickSort.java
+    
+then use the following command:
+mkdir classes
+javac -d classes datahandler/quickSort.java
+javac -d classpath classes datahandler/DataHandler.java
+java datahandler.DataHandler "abs address of prices.csv" "abs address of corrections.csv"
+
+    
+To run it with IDE (i.e. Eclipse), choose run configuration and then click on arguments, and put the absolute path of prices.csv as the first arg and the absolute path of corrections.csv as the second arg. Then run and you will see the answer.
 
 all the prices are arranged according to:
 Open High Low Close Volume AdjClose
