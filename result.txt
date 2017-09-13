@@ -10,7 +10,7 @@ java helloworld.helloWorld. //you will see:Jingang He, Financial Mathematics, Co
 Qn2:
 There are two .java files: DataHandler.java and quickSort.java contained in dirctory datahandler
 
-There is a global integer constant in the DataHandler class called verbose, whose default value is 0. To see which dates are used in the computation process, set it to 1 in the main function and the dates will be printed out.(Yes, you need to change DataHandler.java in order to do it)
+There is a global integer constant in the DataHandler class called verbose, whose default value is 0. To see which dates are used in the computation process, set it to 1 in the main function and the dates will be printed out.(Yes, you need to change DataHandler.java in order to do it). In the results I show below, I set verbose=1 to see what's going on. 
 
 To run this program in your computer. You need to pass two arguments into the main function:
 the first arg is the absolute path of your prices.csv
